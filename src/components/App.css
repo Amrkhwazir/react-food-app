@@ -1,0 +1,48 @@
+*{
+    background-color: "#f3f0e5";
+    text-transform: capitalize;
+    font-family: monospace;
+   
+}
+
+.searchInput{
+    padding: 5px 40px;
+    margin: 10px;
+}
+.wall{
+    width: 200px;
+    border: 1px solid black;
+    position: absolute;
+    left: 525px;
+}
+
+@media(max-width:  428px){
+    .wall{
+        display: none;
+    }
+    h1{
+        font-size: 28px !important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+}
+
+
+@media(max-width: 768px) and (min-width: 430px){
+
+.wall{
+    position: absolute;
+    left: 280px;
+}
+
+}
+
+@media(max-width: 1024px) and (min-width: 769px){
+
+.wall{
+    position: absolute;
+    left: 410px;
+}
+
+}
